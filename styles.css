@@ -1,0 +1,23 @@
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+}
+
+.hero {
+  background: url("/images/hero.jpg");
+  background-size: cover;
+}
+
+.contacts {
+  padding: 4rem;
+  background: url("/images/contacts.jpg");
+  background-size: cover;
+}
+
+.text-shadow {
+  text-shadow: 0 0 10px #24242444;
+}

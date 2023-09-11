@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beauty</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="flex flex-col justify-between">
+      <nav>
+        <div class="container mx-auto px-10">
+          <div class="w-full md:h-[120px]">
+            <div class="w-full h-full flex items-center justify-between">
+              <a href="/" class="text-red-600 text-4xl font-bold max-md:ml-6">
+                BEAUTY
+              </a>
+              <ul
+                class="hidden fixed top-0 left-0 h-screen w-full bg-red-500"
+                data-mobile-menu
+              >
+                <div class="text-right" data-close-menu-button>
+                  <i
+                    class="fa-solid fa-xmark text-white text-4xl inline-block py-4 px-6 cursor-pointer"
+                  ></i>
+                </div>
+                <li>
+                  <a
+                    class="text-white text-xl inline-block py-4 px-6 rounded w-full hover:bg-red-600 duration-300"
+                    href="/"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white text-xl inline-block py-4 px-6 rounded w-full hover:bg-red-600 duration-300"
+                    href="/"
+                  >
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white text-xl inline-block py-4 px-6 rounded w-full hover:bg-red-600 duration-300"
+                    href="#"
+                  >
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white text-xl inline-block py-4 px-6 rounded w-full hover:bg-red-600 duration-300"
+                    href="/"
+                  >
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white text-xl inline-block py-4 px-6 rounded w-full hover:bg-red-600 duration-300"
+                    href="/"
+                  >
+                    Gallery
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white text-xl inline-block py-4 px-6 rounded w-full hover:bg-red-600 duration-300"
+                    href="/"
+                  >
+                    Contacts
+                  </a>
+                </li>
+              </ul>
+              <ul class="hidden md:flex md:gap-2">
+                <li>
+                  <a
+                    class="text-red-600 text-xl inline-block md:py-2 md:px-4 lg:py-4 lg:px-6 rounded hover:text-white hover:bg-red-600 duration-300"
+                    href="/"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-red-600 text-xl inline-block md:py-2 md:px-4 lg:py-4 lg:px-6 rounded hover:text-white hover:bg-red-600 duration-300"
+                    href="/"
+                  >
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-red-600 text-xl inline-block md:py-2 md:px-4 lg:py-4 lg:px-6 rounded hover:text-white hover:bg-red-600 duration-300"
+                    href="/"
+                  >
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-red-600 text-xl inline-block md:py-2 md:px-4 lg:py-4 lg:px-6 rounded hover:text-white hover:bg-red-600 duration-300"
+                    href="/"
+                  >
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-red-600 text-xl inline-block md:py-2 md:px-4 lg:py-4 lg:px-6 rounded hover:text-white hover:bg-red-600 duration-300"
+                    href="/"
+                  >
+                    Gallery
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-red-600 text-xl inline-block md:py-2 md:px-4 lg:py-4 lg:px-6 rounded hover:text-white hover:bg-red-600 duration-300"
+                    href="/"
+                  >
+                    Contacts
+                  </a>
+                </li>
+              </ul>
+              <div class="block md:hidden" data-open-menu-button>
+                <i
+                  class="fa-solid fa-bars text-4xl inline-block py-4 px-6 cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- starts hero section -->
+
+      <section class="hero">
+        <div class="px-2 md:px-10 min-h-screen flex items-center">
+          <div class="container mx-auto">
+            <div class="max-w-[800px] max-md:px-6 max-md:pt-6">
+              <div
+                class="rounded shadow-lg shadow-black-600/20 bg-white/90 p-10"
+              >
+                <h1 class="text-6xl font-bold mb-10">Beauty</h1>
+                <p class="text-xl">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                  minima sint rerum necessitatibus nobis laudantium eaque,
+                  voluptate, voluptates reprehenderit architecto distinctio,
+                  deleniti molestiae! Nemo aut eveniet minima, nesciunt,
+                  assumenda quae dolor placeat, dignissimos mollitia ipsam
+                  voluptatum saepe sapiente odio eos.
+                </p>
+                <div class="flex max-md:flex-col gap-2 mt-10">
+                  <a
+                    href="#"
+                    class="inline-block text-xl text-white py-4 px-6 rounded bg-red-500 hover:bg-red-600 duration-300"
+                  >
+                    Get Started
+                  </a>
+                  <a
+                    href="#"
+                    class="inline-block text-xl text-red-500 py-4 px-6 rounded hover:text-white hover:bg-red-600 duration-300"
+                  >
+                    Contacts
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          class="hidden md:block"
+          src="/images/wave-background.svg"
+          alt="Wave Background"
+        />
+      </section>
+
+      <!-- ends hero section -->
+    </header>
+
+    <!-- starts about us section -->
+
+    <section>
+      <img
+        class="hidden md:block rotate-180"
+        src="/images/wave-background.svg"
+        alt="Wave Background"
+      />
+      <div class="container px-10 mx-auto py-20">
+        <div class="grid xl:grid-cols-2 items-center">
+          <div class="max-w-[700px] p-10 rounded shadow shadow-red-600">
+            <h2 class="text-6xl text-center font-bold mb-10">About Us</h2>
+            <p class="mb-4 text-xl">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Laudantium at vitae excepturi reprehenderit aliquam non,
+              asperiores dolorem alias enim saepe ullam sit! Nihil consequatur
+              sunt culpa? Temporibus quaerat delectus non nulla laborum amet
+              nostrum exercitationem explicabo alias enim, officia veniam?
+            </p>
+            <p class="mb-4 text-xl">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque odit vitae cumque nihil delectus rerum voluptatibus
+              dolorum optio officiis amet.
+            </p>
+            <p class="mb-4 text-xl">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+              libero animi officia vel illum officiis, perspiciatis voluptates
+              unde nihil molestias voluptas voluptate assumenda voluptatum alias
+              obcaecati magnam temporibus, debitis architecto?
+            </p>
+          </div>
+          <div class="max-w-[600px]">
+            <img src="/images/about-us.png" alt="About Us" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ends about us section -->
+
+    <!-- starts services section -->
+
+    <section>
+      <h2 class="text-6xl font-bold text-center">Services</h2>
+      <div class="container mx-auto px-10 pt-10 pb-20">
+        <ul class="grid md:grid-cols-2 gap-20">
+          <li>
+            <a class="block text-4xl font-bold text-center" href="#">
+              Service 1
+            </a>
+            <img src="/images/services/service-1.avif" class="my-6" alt="Service 1" />
+            <p class="text-xl text-center">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+              accusamus iusto ut accusantium odit eius minima deserunt dolore
+              consequatur praesentium.
+            </p>
+            <div class="text-center">
+              <a
+                href="#"
+                class="inline-block mt-6 py-4 px-6 rounded text-xl text-white bg-red-500 hover:bg-red-600 duration-300"
+              >
+                Get Started
+              </a>
+            </div>
+          </li>
+          <li>
+            <a class="block text-4xl font-bold text-center" href="#">
+              Service 2
+            </a>
+            <img src="/images/services/service-2.avif" class="my-6" alt="Service 2" />
+            <p class="text-xl text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut odio
+              aperiam doloribus qui maiores sunt exercitationem labore, soluta
+              iure suscipit!
+            </p>
+            <div class="text-center">
+              <a
+                href="#"
+                class="inline-block mt-6 py-4 px-6 rounded text-xl text-white bg-red-500 hover:bg-red-600 duration-300"
+              >
+                Get Started
+              </a>
+            </div>
+          </li>
+          <li>
+            <a class="block text-4xl font-bold text-center" href="#">
+              Service 3
+            </a>
+            <img src="/images/services/service-3.avif" class="my-6" alt="Service 3" />
+            <p class="text-xl text-center">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa
+              provident pariatur consequatur nostrum harum numquam, saepe
+              laboriosam necessitatibus quaerat nobis.
+            </p>
+            <div class="text-center">
+              <a
+                href="#"
+                class="inline-block mt-6 py-4 px-6 rounded text-xl text-white bg-red-500 hover:bg-red-600 duration-300"
+              >
+                Get Started
+              </a>
+            </div>
+          </li>
+          <li>
+            <a class="block text-4xl font-bold text-center" href="#">
+              Service 4
+            </a>
+            <img src="/images/services/service-1.avif" class="my-6" alt="Service 4" />
+            <p class="text-xl text-center">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Molestiae ipsum provident accusantium error asperiores illum
+              totam, quas veniam quidem quo?
+            </p>
+            <div class="text-center">
+              <a
+                href="#"
+                class="inline-block mt-6 py-4 px-6 rounded text-xl text-white bg-red-500 hover:bg-red-600 duration-300"
+              >
+                Get Started
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ends services section -->
+
+    <!-- starts blog section -->
+
+    <section>
+      <h2 class="text-6xl font-bold text-center">Blog</h2>
+      <div class="container mx-auto px-10 pt-10 pb-20">
+        <ul class="grid md:grid-cols-2 gap-20">
+          <li class="shadow-lg p-10">
+            <a class="block text-4xl font-bold text-center" href="#">
+              Lorem ipsum dolor sit, amet consectetur.
+            </a>
+            <img src="/images/blog/post-1-thumbnail.avif" class="my-6" alt="Service 1" />
+            <p class="text-xl text-center">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+              accusamus iusto ut accusantium odit eius minima deserunt dolore
+              consequatur praesentium.
+            </p>
+            <div class="text-center">
+              <a
+                href="#"
+                class="inline-block mt-6 py-4 px-6 rounded text-xl text-white bg-red-500 hover:bg-red-600 duration-300"
+              >
+                Read
+              </a>
+            </div>
+          </li>
+          <li class="shadow-lg p-10">
+            <a class="block text-4xl font-bold text-center" href="#">
+              Lorem ipsum dolor sit, amet consectetur.
+            </a>
+            <img src="/images/blog/post-2-thumbnail.avif" class="my-6" alt="Service 1" />
+            <p class="text-xl text-center">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+              accusamus iusto ut accusantium odit eius minima deserunt dolore
+              consequatur praesentium.
+            </p>
+            <div class="text-center">
+              <a
+                href="#"
+                class="inline-block mt-6 py-4 px-6 rounded text-xl text-white bg-red-500 hover:bg-red-600 duration-300"
+              >
+                Read
+              </a>
+            </div>
+          </li>
+          <li class="shadow-lg p-10">
+            <a class="block text-4xl font-bold text-center" href="#">
+              Lorem ipsum dolor sit, amet consectetur.
+            </a>
+            <img src="/images/blog/post-3-thumbnail.avif" class="my-6" alt="Service 1" />
+            <p class="text-xl text-center">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+              accusamus iusto ut accusantium odit eius minima deserunt dolore
+              consequatur praesentium.
+            </p>
+            <div class="text-center">
+              <a
+                href="#"
+                class="inline-block mt-6 py-4 px-6 rounded text-xl text-white bg-red-500 hover:bg-red-600 duration-300"
+              >
+                Read
+              </a>
+            </div>
+          </li>
+          <li class="shadow-lg p-10">
+            <a class="block text-4xl font-bold text-center" href="#">
+              Lorem ipsum dolor sit, amet consectetur.
+            </a>
+            <img src="/images/blog/post-4-thumbnail.avif" class="my-6" alt="Service 1" />
+            <p class="text-xl text-center">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+              accusamus iusto ut accusantium odit eius minima deserunt dolore
+              consequatur praesentium.
+            </p>
+            <div class="text-center">
+              <a
+                href="#"
+                class="inline-block mt-6 py-4 px-6 rounded text-xl text-white bg-red-500 hover:bg-red-600 duration-300"
+              >
+                Read
+              </a>
+            </div>
+          </li>
+          <li class="shadow-lg p-10">
+            <a class="block text-4xl font-bold text-center" href="#">
+              Lorem ipsum dolor sit, amet consectetur.
+            </a>
+            <img src="/images/blog/post-5-thumbnail.avif" class="my-6" alt="Service 1" />
+            <p class="text-xl text-center">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+              accusamus iusto ut accusantium odit eius minima deserunt dolore
+              consequatur praesentium.
+            </p>
+            <div class="text-center">
+              <a
+                href="#"
+                class="inline-block mt-6 py-4 px-6 rounded text-xl text-white bg-red-500 hover:bg-red-600 duration-300"
+              >
+                Read
+              </a>
+            </div>
+          </li>
+          <li class="shadow-lg p-10">
+            <a class="block text-4xl font-bold text-center" href="#">
+              Lorem ipsum dolor sit, amet consectetur.
+            </a>
+            <img src="/images/blog/post-6-thumbnail.avif" class="my-6" alt="Service 1" />
+            <p class="text-xl text-center">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+              accusamus iusto ut accusantium odit eius minima deserunt dolore
+              consequatur praesentium.
+            </p>
+            <div class="text-center">
+              <a
+                href="#"
+                class="inline-block mt-6 py-4 px-6 rounded text-xl text-white bg-red-500 hover:bg-red-600 duration-300"
+              >
+                Read
+              </a>
+            </div>
+          </li>
+          <li class="shadow-lg p-10">
+            <a class="block text-4xl font-bold text-center" href="#">
+              Lorem ipsum dolor sit, amet consectetur.
+            </a>
+            <img src="/images/blog/post-7-thumbnail.avif" class="my-6" alt="Service 1" />
+            <p class="text-xl text-center">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+              accusamus iusto ut accusantium odit eius minima deserunt dolore
+              consequatur praesentium.
+            </p>
+            <div class="text-center">
+              <a
+                href="#"
+                class="inline-block mt-6 py-4 px-6 rounded text-xl text-white bg-red-500 hover:bg-red-600 duration-300"
+              >
+                Read
+              </a>
+            </div>
+          </li>
+          <li class="shadow-lg p-10">
+            <a class="block text-4xl font-bold text-center" href="#">
+              Lorem ipsum dolor sit, amet consectetur.
+            </a>
+            <img src="/images/blog/post-8-thumbnail.avif" class="my-6" alt="Service 1" />
+            <p class="text-xl text-center">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+              accusamus iusto ut accusantium odit eius minima deserunt dolore
+              consequatur praesentium.
+            </p>
+            <div class="text-center">
+              <a
+                href="#"
+                class="inline-block mt-6 py-4 px-6 rounded text-xl text-white bg-red-500 hover:bg-red-600 duration-300"
+              >
+                Read
+              </a>
+            </div>
+          </li>
+          <li class="shadow-lg p-10">
+            <a class="block text-4xl font-bold text-center" href="#">
+              Lorem ipsum dolor sit, amet consectetur.
+            </a>
+            <img src="/images/blog/post-9-thumbnail.avif" class="my-6" alt="Service 1" />
+            <p class="text-xl text-center">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+              accusamus iusto ut accusantium odit eius minima deserunt dolore
+              consequatur praesentium.
+            </p>
+            <div class="text-center">
+              <a
+                href="#"
+                class="inline-block mt-6 py-4 px-6 rounded text-xl text-white bg-red-500 hover:bg-red-600 duration-300"
+              >
+                Read
+              </a>
+            </div>
+          </li>
+          <li class="shadow-lg p-10">
+            <a class="block text-4xl font-bold text-center" href="#">
+              Lorem ipsum dolor sit, amet consectetur.
+            </a>
+            <img src="/images/blog/post-10-thumbnail.avif" class="my-6" alt="Service 1" />
+            <p class="text-xl text-center">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+              accusamus iusto ut accusantium odit eius minima deserunt dolore
+              consequatur praesentium.
+            </p>
+            <div class="text-center">
+              <a
+                href="#"
+                class="inline-block mt-6 py-4 px-6 rounded text-xl text-white bg-red-500 hover:bg-red-600 duration-300"
+              >
+                Read
+              </a>
+            </div>
+          </li>
+        </ul>
+        <div class="text-center mt-10">
+          <a
+            href="#"
+            class="inline-block mt-6 py-10 px-24 rounded text-6xl text-white bg-red-500 hover:bg-red-600 duration-300"
+          >
+            All posts
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ends blog section -->
+
+    <!-- starts gallery section -->
+
+    <section>
+      <h2 class="text-6xl font-bold text-center">Gallery</h2>
+      <div class="container mx-auto px-10 pt-10 pb-20">
+        <ul class="grid md:grid-cols-2 gap-20">
+          <li class="shadow-lg p-10">
+            <img src="/images/gallery/image-1.avif" class="my-6" alt="Image 1" />
+          </li>
+          <li class="shadow-lg p-10">
+            <img src="/images/gallery/image-2.avif" class="my-6" alt="Image 1" />
+          </li>
+          <li class="shadow-lg p-10">
+            <img src="/images/gallery/image-3.avif" class="my-6" alt="Image 1" />
+          </li>
+          <li class="shadow-lg p-10">
+            <img src="/images/gallery/image-4.avif" class="my-6" alt="Image 1" />
+          </li>
+          <li class="shadow-lg p-10">
+            <img src="/images/gallery/image-5.avif" class="my-6" alt="Image 1" />
+          </li>
+          <li class="shadow-lg p-10">
+            <img src="/images/gallery/image-6.avif" class="my-6" alt="Image 1" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ends gallery section -->
+    <!-- starts contacts section -->
+
+    <section class="contacts">
+      <h2 class="text-6xl font-bold text-white text-shadow text-center">Contacts</h2>
+      <div class="container mx-auto bg-white/90 mt-10 px-10 pt-10 pb-10 rounded shadow-lg">
+        <form method="post">
+          <div class="grid lg:grid-cols-2 lg:gap-10">
+            <div class="mb-10">
+              <label for="fullname" class="text-2xl mb-4 block"
+                >First & Last Name</label
+              >
+              <input
+                type="text"
+                id="fullname"
+                placeholder="Enter your first and last name"
+                autocomplete="off"
+                class="outline-none text-2xl w-full block p-6 border border-gray-200 rounded hover:border-gray-400 focus:border-gray-400"
+              />
+            </div>
+            <div class="mb-10">
+              <label for="email" class="text-2xl mb-4 block">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter your email address"
+                autocomplete="off"
+                class="outline-none text-2xl w-full block p-6 border border-gray-200 rounded hover:border-gray-400 focus:border-gray-400"
+              />
+            </div>
+          </div>
+          <div class="mb-10">
+            <label for="message" class="text-2xl mb-4 block">Message</label>
+            <textarea
+              id="message"
+              placeholder="Enter your message..."
+              rows="10"
+              class="outline-none text-2xl w-full block p-6 border border-gray-200 rounded min-h-[200px] hover:border-gray-400 focus:border-gray-400"
+            ></textarea>
+          </div>
+          <div class="mt-10">
+            <button class="text-2xl py-6 px-10 rounded text-white bg-red-500 hover:bg-red-600 duration-300">Send</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ends contacts section -->
+    
+    <footer>
+      <div class="bg-slate-900">
+        <div class="container mx-auto text-2xl py-10 text-white text-center">
+          <span>&copy; 2023 All Rights Reversed.</span>
+          <a href="https://krisidev.com" class="text-red-600 font-bold">krisidev.com</a>
+          <span> | </span>
+          <a href="https://www.youtube.com/@kriscoding" class="text-red-600 font-bold">YouTube Channel</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
