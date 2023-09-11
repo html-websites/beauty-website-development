@@ -13,7 +13,6 @@ img {
 }
 
 .contacts {
-  padding: 4rem;
   background: url("/images/contacts.jpg");
   background-size: cover;
 }
